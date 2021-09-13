@@ -1,0 +1,44 @@
+:root {
+    
+}
+
+body {
+    margin: 0;
+    
+    height: 100vh;
+}
+
+main {
+    top: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.optionButton {
+    padding: 0;
+    width: 10vh;
+    height: 10vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    right: 20px;
+}
+
+.table {
+    display: flex;
+    height: 50vh;
+    align-items: flex-end;
+}
+
+.case {
+    margin: 10px;
+    width: 20vh;
+    height: 20vh;
+    top: 50px;
+    background-color: blue;
+}
+
+.casecontent {
+    color: white;
+    text-align: center;
+}
