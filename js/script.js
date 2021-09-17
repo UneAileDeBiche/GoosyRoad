@@ -24,7 +24,7 @@ function butevent() {
 
 
 function playermove() {
-    ReactDOM.render(<img src="/img/OIE_1.png" alt="oie" ></img>, document.getElementById("case" + playerpos));
+    ReactDOM.render(<img class="imgOie" src="/img/OIE_1.png" alt="oie" ></img>, document.getElementById("case" + playerpos));
     ReactDOM.render(<h1 class="casecontent"> 1 </h1>, document.getElementById("case" + playerpos - 1));
 }
 
