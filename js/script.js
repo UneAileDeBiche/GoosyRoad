@@ -25,7 +25,7 @@ function butevent() {
 
 function playermove() {
     ReactDOM.render(<img src="/img/OIE_1.png" alt="oie" ></img>, document.getElementById("case" + playerpos));
-
+    ReactDOM.render(<h1 class="casecontent"> 1 </h1>, document.getElementById("case" + playerpos - 1));
 }
 
 function reset() {
@@ -40,10 +40,11 @@ function openquestion() {
     answer = prompt("Answer this question douchebag");
     switch (answer) {
         case 1:
-            
+            alert("Good Job ! :)")
             break;
-    
+        
         default:
+            alert("Dumbass")
             break;
     }
 }
